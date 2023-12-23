@@ -1,0 +1,37 @@
+body {
+font-family:Haettenschweiler, 'Arial Narrow Bold';
+margin: 0;
+padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.player-list {
+    display:flex;
+    flex-wrap: wrap;
+}
+.player-detail {
+    width: 40%;
+    padding: 20px;
+}
+* {
+    box-sizing:border-box;
+  }
+  main {
+    display:block;
+    min-height: 100px;
+    color:aliceblue;
+    padding: 85px 24px 96px;
+    font-family:'Open Sans', sans-serif;
+    font-size: 25px;
+    
+  }
+  .player-item {
+    border: 1px solid #000000;
+    margin:10px;
+    padding:10px;
+  }
